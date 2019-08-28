@@ -7,7 +7,7 @@ using System.Web.Mvc;
 namespace WebApplication4.Controllers
 {
     public class HomeController : Controller
-    {
+    
         public ActionResult Index()
         {
             return View();
@@ -15,7 +15,7 @@ namespace WebApplication4.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = " Description Your application description page.";
 
             return View();
         }
